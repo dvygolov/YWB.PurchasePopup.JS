@@ -14,6 +14,7 @@
   box-sizing: border-box;
   font-weight: 400;
   border-radius: 6px;
+  border: 1px solid black;
   box-shadow: 2px 2px 10px 2px rgba(11, 10, 10, 0.2);
   background-color: #fff;
   position: relative;
@@ -22,9 +23,14 @@
 .custom-social-proof .custom-notification .custom-notification-container {
   display: flex !important;
   align-items: center;
-  height: 80px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
-.custom-social-proof .custom-notification .custom-notification-container .custom-notification-image-wrapper img {
+.custom-social-proof
+  .custom-notification
+  .custom-notification-container
+  .custom-notification-image-wrapper
+  img {
   margin-left: 15px;
   max-height: 75px;
   width: 90px;
@@ -32,7 +38,10 @@
   border-radius: 6px 0 0 6px;
   object-fit: cover;
 }
-.custom-social-proof .custom-notification .custom-notification-container .custom-notification-content-wrapper {
+.custom-social-proof
+  .custom-notification
+  .custom-notification-container
+  .custom-notification-content-wrapper {
   margin: 0;
   height: 100%;
   color: gray;
@@ -44,14 +53,23 @@
   flex-direction: column;
   justify-content: center;
 }
-.custom-social-proof .custom-notification .custom-notification-container .custom-notification-content-wrapper .custom-notification-content {
+.custom-social-proof
+  .custom-notification
+  .custom-notification-container
+  .custom-notification-content-wrapper
+  .custom-notification-content {
   font-family: inherit !important;
   margin: 0 !important;
   padding: 0 !important;
   font-size: 14px;
   line-height: 16px;
 }
-.custom-social-proof .custom-notification .custom-notification-container .custom-notification-content-wrapper .custom-notification-content small {
+.custom-social-proof
+  .custom-notification
+  .custom-notification-container
+  .custom-notification-content-wrapper
+  .custom-notification-content
+  small {
   margin-top: 3px !important;
   display: block !important;
   font-size: 12px !important;
@@ -92,6 +110,22 @@
   opacity: 1;
 }
 
+@media (max-width: 320px) {
+  .custom-social-proof
+    .custom-notification
+    .custom-notification-container
+    .custom-notification-content-wrapper
+    .custom-notification-content {
+    line-height: 12px;
+  }
+  .custom-social-proof
+    .custom-notification
+    .custom-notification-container
+    .custom-notification-content-wrapper
+    .custom-notification-content {
+    line-height: 12px;
+  }
+}
 @media (max-width: 480px) {
   .custom-social-proof {
     position: fixed;
@@ -103,16 +137,24 @@
   }
   .custom-social-proof .custom-notification {
     width: 90%; /* Increase width to 90% of screen width */
-    left: 5%;  /* Center the popup */
+    left: 5%; /* Center the popup */
     bottom: 5%;
   }
 
-  .custom-social-proof .custom-notification .custom-notification-container .custom-notification-content-wrapper .custom-notification-content {
-    font-size: 16px; /* Increase font size */
+  .custom-social-proof
+    .custom-notification
+    .custom-notification-container
+    .custom-notification-content-wrapper
+    .custom-notification-content {
     line-height: 18px;
   }
 
-  .custom-social-proof .custom-notification .custom-notification-container .custom-notification-content-wrapper .custom-notification-content small {
+  .custom-social-proof
+    .custom-notification
+    .custom-notification-container
+    .custom-notification-content-wrapper
+    .custom-notification-content
+    small {
     font-size: 14px; /* Increase font size for the small tag */
   }
 }
