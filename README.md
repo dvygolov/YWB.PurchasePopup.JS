@@ -1,4 +1,6 @@
-```                
+`$([Environment]::NewLine)
+[Support this project](https://yellowweb.top/donate)
+                
                             YWB.PurchasePopup.JS  
     _            __     __  _ _             __          __  _     
    | |           \ \   / / | | |            \ \        / / | |    
@@ -9,9 +11,8 @@
            __/ |                                                  
           |___/             https://yellowweb.top                 
 
-If you like this script, PLEASE DONATE!  
-USDT TRC20: TKeNEVndhPSKXuYmpEwF4fVtWUvfCnWmra
-Bitcoin: bc1qqv99jasckntqnk0pkjnrjtpwu0yurm0qd0gnqv  
-Ethereum: 0xBC118D3FDE78eE393A154C29A4545c575506ad6B  
-```
+If you like this script, PLEASE DONATE!
+`$([Environment]::NewLine)
+[Support this project](https://yellowweb.top/donate)
+
 This script shows a small popup at the bottom of the screen that tells the user that somebody bought your product
